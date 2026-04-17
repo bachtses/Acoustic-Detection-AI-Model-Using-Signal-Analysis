@@ -6,6 +6,8 @@ This repository contains the full machine learning pipeline for acoustic-based d
 
 The goal is to develop a robust and lightweight model capable of distinguishing drone sounds from environmental noise in real-world conditions, optimized for edge deployment.
 
+<img width="984" height="222" alt="image" src="https://github.com/user-attachments/assets/03971e92-ab6a-4b8d-be19-be5d8acbaa46" />
+
 
 ## Problem Statement
 
@@ -26,6 +28,10 @@ Classes:
 Recorded using:
 - ReSpeaker 4-Mic Array
 - Real-world outdoor recordings
+  
+<img width="953" height="299" alt="image" src="https://github.com/user-attachments/assets/b28e2482-9e57-4038-b9cc-55de065b8d1c" />
+
+<img width="973" height="547" alt="image" src="https://github.com/user-attachments/assets/0f3f340e-ac43-445a-9c28-67634a5af68c" />
 
 
 ## Data Preprocessing Pipeline
@@ -39,6 +45,8 @@ Recorded using:
 
 - STFT
 - Log-Mel Spectrogram
+
+<img width="976" height="492" alt="image" src="https://github.com/user-attachments/assets/3c382205-fa5a-4741-a1d8-0c572453817e" />
 
   
 ## Data augmentation
@@ -69,6 +77,10 @@ Recorded using:
 - Recall
 - Confusion Matrix
 
+<img width="927" height="437" alt="image" src="https://github.com/user-attachments/assets/1eb3f9c8-3186-426d-985e-e3e7f60007b6" />
+
+<img width="793" height="353" alt="image" src="https://github.com/user-attachments/assets/09135720-ccc9-48a8-b662-d9bd29820a97" />
+
 
 ## Evaluation
 
@@ -77,10 +89,14 @@ Recorded using:
 - Distance-based detection experiments
 - Model comparison across architectures
 
+<img width="967" height="619" alt="image" src="https://github.com/user-attachments/assets/08a63ca6-539b-498e-b4fd-0d0cc0485e1b" />
+
 
 ## Deployment
 
-- Model converted to TensorFlow Lite for edge inference:
+- Model converted to TensorFlow Lite for edge inference on Raspberry Pi 5
+
+<img width="279" height="439" alt="image" src="https://github.com/user-attachments/assets/e0576881-576e-4abb-8480-0882664c0632" />
 
 
 ## Includes scripts for
