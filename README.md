@@ -1,9 +1,34 @@
-The AI model trained is a lightweight 1D Convolutional Neural Network (CNN) optimized for real-time drone detection on edge devices such as the Raspberry Pi 5.
+# Acoustic Detection AI Model Using Signal Analysis
 
-1D Convolutional Neural Network (CNN) trained on real-world audio samples for binary classification (drone / no drone)
-AI Model: Trained with MFCC features, 3×Conv1D layers, >95% accuracy on validation
-Real-world field tested with over 6500 labeled audio samples
-Achieved F1 Score: 91.2%, Precision: 94.2%, Recall: 88.5%, and Accuracy: 90.2% during field deployment
-Tested with DJI Mavic 3 drone under varying distances, angles, and environmental noise
+## Overview
 
-The dataset used for training and evaluation consists of real-world acoustic recordings captured during drone flights and ambient background activity.
+This repository contains the full machine learning pipeline for acoustic-based drone detection, including data collection, preprocessing, model training, evaluation, and deployment optimization.
+
+The goal is to develop a robust and lightweight model capable of distinguishing drone sounds from environmental noise in real-world conditions, optimized for edge deployment.
+
+
+## Problem Statement
+
+Detect the presence of UAVs using their acoustic signatures in noisy outdoor environments.
+
+Challenges:
+- Background noise (wind, traffic, people)
+- Variability in drone distance and orientation
+- Real-time constraints for edge devices
+
+
+## Project Structure
+
+.
+├── data_capture/
+├── dataset/
+├── models/
+│
+├── data_capture_respeaker.py
+├── data_split.py
+├── train_model.py
+├── test_model.py
+├── converter_tflite.py
+├── test_model_tflite.py
+├── model_inference.py
+
