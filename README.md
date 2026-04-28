@@ -10,7 +10,9 @@ The goal is to develop a robust and lightweight model capable of distinguishing 
 
 ## Run
 git clone https://github.com/bachtses/Acoustic-Detection-AI-Model-Using-Signal-Analysis.git
+
 cd Acoustic-Detection-AI-Model-Using-Signal-Analysis
+
 sudo python3 test_model.py (in Raspberry-Pi 5) 
 
 ## Problem Statement
