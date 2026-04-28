@@ -8,6 +8,10 @@ The goal is to develop a robust and lightweight model capable of distinguishing 
 
 <img width="984" height="222" alt="image" src="https://github.com/user-attachments/assets/03971e92-ab6a-4b8d-be19-be5d8acbaa46" />
 
+## Run
+git clone https://github.com/bachtses/Acoustic-Detection-AI-Model-Using-Signal-Analysis.git
+cd Acoustic-Detection-AI-Model-Using-Signal-Analysis
+sudo python3 test_model.py (in Raspberry-Pi 5) 
 
 ## Problem Statement
 
